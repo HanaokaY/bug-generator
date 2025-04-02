@@ -32,7 +32,7 @@ BugGenerator.jsは、ウェブページに意図的に「面白いバグ」を�
 ```html
 <script src="BugGenerator.js"></script>
 <script>
-  window.addEventListener('DOMContentLoaded', () => {
+ document.addEventListener("DOMContentLoaded", () => {
     // シンプルな初期化（すべてのバグが常に発生）
     const buggy = new BugGenerator();
     
