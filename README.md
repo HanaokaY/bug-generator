@@ -30,9 +30,9 @@ BugGenerator.jsは、ウェブページに意図的に「面白いバグ」を�
 ## 使用方法
 
 ```html
-<script src="BugGenerator.js"></script>
+<script src="https://hanaokay.github.io/bug-generator/BugGenerator.js"></script>
 <script>
- document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
     // シンプルな初期化（すべてのバグが常に発生）
     const buggy = new BugGenerator();
     
